@@ -1,7 +1,7 @@
 # Simpleback Landing
 
-Página estática de investigación para entrevistas con equipos que entregan aplicaciones a clientes.
+Página estática para contrastar con equipos que entregan aplicaciones a clientes si hay margen para mejorar la creación de backends. Sitio público: https://simpleback.io/.
 
 ## Publicación
 
-Una vez sustituidos los datos pendientes, publicar los archivos `index.html`, `styles.css`, `favicon.svg` y `simpleback-mark.webp` en la raíz de cualquier alojamiento estático. Para GitHub Pages: subirlos a la rama `main` del repositorio y configurar **Settings → Pages → Build and deployment → Deploy from a branch → main / (root)**. Las referencias a CSS e imágenes son relativas y funcionan también si la página se sirve bajo el subdirectorio del repositorio.
+El sitio se sirve mediante GitHub Pages desde la raíz de `main`, con dominio propio. Los cambios locales se publican al subir esa rama; no hay proceso de compilación ni dependencias. Los archivos necesarios son `index.html`, `styles.css`, `favicon.svg`, `simpleback-mark.webp` y `CNAME`.
